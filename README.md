@@ -1,5 +1,8 @@
 # OneIG-Benchmark: Omni-dimensional Nuanced Evaluation for Image Generation.
 
+<div align="center">
+<img src="assets/OneIG-Bench.png">
+</div>
 
 # Introduction
 
