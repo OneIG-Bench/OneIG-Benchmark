@@ -1,0 +1,3 @@
+{
+  "prompts": "Time dilation is a phenomenon in special relativity where time passes at different rates for observers in relative motion. It is quantitatively described by the Lorentz factor, which depends on the relative velocity between observers. The time interval measured by a stationary observer is longer compared to that measured by an observer moving relative to the first. This effect becomes significant at speeds approaching the speed of light. Mathematically, it is expressed by the equation \\( t' = \\gamma t \\), where \\( t' \\) is the dilated time, \\( t \\) is the proper time, and \\( \\gamma \\) (the Lorentz factor) is \\( 1/\\sqrt{1 - v^2/c^2} \\)."
+}

@@ -1,0 +1,3 @@
+{
+  "prompts": "A Gaussian distribution, also known as a normal distribution, is characterized by its bell-shaped curve, representing continuous data that clusters around a mean. A Binomial distribution describes the number of successes in a fixed number of independent Bernoulli trials with a constant probability of success, depicted by its distinct probability mass function. A Poisson distribution models the occurrence of events over a fixed interval of time or space, characterized by its mean equaling its variance, suitable for rare events spread over large samples. Each distribution is essential for different statistical modeling and hypothesis testing purposes."
+}

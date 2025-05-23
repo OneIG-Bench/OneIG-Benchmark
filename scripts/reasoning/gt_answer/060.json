@@ -1,0 +1,3 @@
+{
+  "prompts": "A Generative Adversarial Network (GAN) consists of two neural networks: a Generator and a Discriminator. The Generator creates data samples in an attempt to mimic real data, while the Discriminator evaluates whether each sample is real or generated. They are trained adversarially: the Generator aims to produce increasingly convincing data to fool the Discriminator, while the Discriminator strives to improve its ability to distinguish real from fake. This competition drives both networks to enhance their performance, resulting in a Generator that produces realistic data and a Discriminator that effectively scrutinizes input samples."
+}

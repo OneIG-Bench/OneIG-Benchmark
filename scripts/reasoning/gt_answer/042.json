@@ -1,0 +1,3 @@
+{
+  "prompts": "Object-oriented programming (OOP) is a programming paradigm characterized by the use of objects and classes. Its main features include encapsulation, which involves bundling data and methods within a class to hide implementation details; inheritance, where a class can inherit fields and methods from another, promoting code reusability; and polymorphism, allowing objects to be treated as instances of their parent class, enabling methods to work differently based on the object type. Together, these principles aid in writing modular, flexible, and scalable code."
+}

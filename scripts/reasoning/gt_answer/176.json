@@ -1,0 +1,3 @@
+{
+  "prompts": "To visualize the velocity decomposition of a projectile's motion, consider its trajectory, which is a curved path. The velocity vector can be decomposed into horizontal and vertical components. The horizontal component (Vx) is constant, assuming no air resistance, and is parallel to the ground. The vertical component (Vy) changes due to gravitational acceleration, acting downward. At any point on the trajectory, the overall velocity of the projectile is the vector sum of Vx and Vy."
+}

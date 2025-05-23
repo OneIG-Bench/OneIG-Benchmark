@@ -1,0 +1,3 @@
+{
+  "prompts": "Depth-First Search (DFS) and Breadth-First Search (BFS) are fundamental algorithms used to traverse or search through graph data structures. DFS explores as far as possible along a branch before backtracking, typically using a stack or recursion. This method is effective for scenarios like solving puzzles or pathfinding in mazes. BFS explores graph layers level by level, employing a queue to manage nodes, making it suitable for finding the shortest path in unweighted graphs. Both methods are essential for understanding graph structures and are foundational to numerous applications in computer science."
+}

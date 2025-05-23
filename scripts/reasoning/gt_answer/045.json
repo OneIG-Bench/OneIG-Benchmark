@@ -1,0 +1,3 @@
+{
+  "prompts": "In symmetric encryption, a single key is used for both encryption and decryption, meaning the same key is shared between the sender and the receiver. In asymmetric encryption, two keys are used: a public key and a private key. Messages encrypted with the public key can only be decrypted with the corresponding private key, and vice versa. While symmetric encryption is faster, it requires secure key exchange, whereas asymmetric encryption provides better security for key distribution but is slower due to its complex algorithms."
+}

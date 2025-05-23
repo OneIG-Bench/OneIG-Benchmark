@@ -1,0 +1,3 @@
+{
+  "prompts": "Linked lists are a sequence of nodes, each containing data and a reference to the next node. Stacks follow Last In, First Out (LIFO) order, with operations mainly at one end; you push to add and pop to remove elements. Queues operate in a First In, First Out (FIFO) manner, with enqueue to add elements at the rear and dequeue to remove elements from the front."
+}

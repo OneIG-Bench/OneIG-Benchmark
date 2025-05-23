@@ -1,0 +1,3 @@
+{
+  "prompts": "Zero-shot learning is a machine learning paradigm where a model is trained to recognize unseen classes without direct examples. It facilitates knowledge transfer from seen to unseen classes by leveraging shared attributes or semantic information. This is a form of transfer learning, where a model uses learned representations from existing classes to generalize to new, unseen ones. The key challenge is effectively bridging the gap between the known and unknown classes by utilizing auxiliary information, such as textual descriptions or class hierarchies, to guide the learning process and enable accurate classification despite the lack of direct training data."
+}

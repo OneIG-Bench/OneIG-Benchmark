@@ -1,0 +1,3 @@
+{
+  "prompts": "A circuit diagram featuring two bulbs can be drawn with both series and parallel configurations alongside a rheostat. In the series configuration, connect the two bulbs one after the other such that they share a common current path. For the parallel configuration, the two bulbs should be connected across the same two points, forming individual branches. The rheostat, used to adjust resistance and control current flow, should be connected in series with one of the branches or at the beginning of the circuit to vary brightness in either the series or parallel arrangement."
+}

@@ -1,0 +1,3 @@
+{
+  "prompts": "Federated learning is a decentralized machine learning approach where data remains on local devices, and only model updates are shared with a central server. Its structure typically involves multiple clients, each holding its own dataset and model. These clients train their models locally and send the trained model parameters to a central server, which performs model aggregation to create a global model. This global model is then redistributed to the clients for further training, ensuring privacy and reducing the need for centralized data storage while maintaining a collaborative framework for model improvement."
+}

@@ -1,0 +1,3 @@
+{
+  "prompts": "A Convolutional Neural Network (CNN) typically starts with an input layer, followed by a series of convolutional layers that apply filters to the input to capture spatial hierarchies and features. Each convolutional layer is often followed by a nonlinear activation function, such as ReLU, and a pooling layer, like max pooling, which reduces the spatial dimensions and computational load. Finally, the network includes one or more fully connected layers, which act as a classifier by mapping the high-level filtered images to the output layer, providing the final prediction or classification result."
+}

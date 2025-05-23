@@ -1,0 +1,3 @@
+{
+  "prompts": "A network security diagram detailing how a firewall operates should depict the firewall as a barrier between internal and external networks. It controls ingress and egress traffic based on predefined security rules. Data flow should be illustrated with arrows showing packets entering from the internet, passing through the firewall for inspection against these rules, and either being allowed into the internal network or blocked. Additionally, it can show connections to other devices like routers, servers, and endpoints, emphasizing its role in preventing unauthorized access and protecting against threats while maintaining approved communication pathways."
+}

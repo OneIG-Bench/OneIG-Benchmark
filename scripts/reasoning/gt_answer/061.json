@@ -1,0 +1,3 @@
+{
+  "prompts": "A reinforcement learning agent interacts with its environment in a cyclical process. The agent observes the current state of the environment, selects an action based on a policy, and executes it. The environment receives the action, transitions to a new state, and provides feedback in the form of a reward signal. The agent updates its policy based on the state, action, reward, and new state to improve future performance. This loop repeats iteratively, enabling the agent to learn and optimize its behavior to achieve a specific goal."
+}

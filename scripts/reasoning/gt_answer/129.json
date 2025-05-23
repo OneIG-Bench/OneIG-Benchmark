@@ -1,0 +1,3 @@
+{
+  "prompts": "To add two complex numbers on a complex plane, represent each number as a vector originating from the origin. For a complex number a + bi, plot the point (a, b). For another complex number c + di, plot (c, d). To find the sum, translate the vector for c + di such that its tail meets the head of the vector for a + bi. The resultant vector from the origin to the end of the translated vector represents the complex sum (a+c, b+d). This is equivalent to vector addition in a 2D space."
+}

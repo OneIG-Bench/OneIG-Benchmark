@@ -1,0 +1,3 @@
+{
+  "prompts": "Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory. It involves dividing the process's memory into fixed-sized units called pages, which correspond to frames in physical memory. The operating system maintains a page table that maps logical pages to physical frames. When a program accesses memory, the CPU uses the page table to translate the logical address to a physical address, allowing non-contiguous memory allocation while facilitating efficient use and protection of memory. This scheme helps in preventing fragmentation and allows for easier multitasking and memory allocation in operating systems."
+}

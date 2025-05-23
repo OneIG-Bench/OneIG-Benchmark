@@ -1,0 +1,3 @@
+{
+  "prompts": "The GPT series models are built on the Transformer architecture, specifically using the decoder segment. Each model consists of several layers of self-attention mechanisms and feed-forward neural networks. The attention mechanism in GPT employs scaled dot-product attention to enable the model to weigh the importance of different words in the input sequence efficiently. Positional encoding is utilized to maintain the sequential order of data input. Stacked layers allow the model to generate predictions and understand context over long text spans. The architecture is designed for autoregressive tasks, predicting subsequent tokens based on preceding text."
+}

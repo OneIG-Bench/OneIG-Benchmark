@@ -1,0 +1,3 @@
+{
+  "prompts": "A blockchain workflow begins with the initiation of a transaction, which involves data packaged into a block. This block is then broadcast to a network of computers, known as nodes. Each node verifies the block through consensus algorithms, ensuring the transaction's validity. Once verified, the transaction block is added to the blockchain, a decentralized ledger. This ledger is continually updated and replicated across all nodes in the network, providing a transparent and tamper-resistant record of all transactions. This distributed ledger ensures that all nodes reflect the most current and accurate state of the blockchain."
+}

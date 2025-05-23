@@ -1,0 +1,3 @@
+{
+  "prompts": "A semiconductor diode operates by allowing current to flow in one direction while blocking it in the opposite direction, utilizing the properties of a p-n junction. When forward-biased, the positive terminal is connected to the p-type side, reducing the barrier and permitting electron flow from n-type to p-type. Under reverse bias, the positive terminal is connected to the n-type side, increasing the barrier and preventing current flow. The diode's functionality arises from the movement of charge carriers at the junction, where holes from the p-type and electrons from the n-type combine, neutralizing each other and permitting controlled directionality."
+}

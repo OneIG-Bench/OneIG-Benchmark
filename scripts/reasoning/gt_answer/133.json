@@ -1,0 +1,3 @@
+{
+  "prompts": "Mathematical induction involves three main steps. First, establish the base case by proving the statement is true for the initial value, usually n=1 or n=0. Second, perform the inductive step by assuming the statement holds for n=k (the induction hypothesis) and then proving it holds for n=k+1. This shows that if the statement is true for n=k, it must also be true for n=k+1, thus supporting its validity for all n beyond the base case. Finally, conclude that the statement is true for all natural numbers or integers starting from the base case value."
+}

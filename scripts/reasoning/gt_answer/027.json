@@ -1,0 +1,3 @@
+{
+  "prompts": "A recursive function is a function in programming that calls itself to solve a problem. Each recursive call has its own execution context, which is saved in the call stack. Recursion requires a base case that terminates the recursion to prevent infinite loops. When the base case is satisfied, the function stops calling itself and begins resolving each call in reverse order on the call stack, ultimately yielding the final result. Recursion is used to solve problems that can be broken down into smaller, similar sub-problems, such as navigating data structures or calculating factorials."
+}

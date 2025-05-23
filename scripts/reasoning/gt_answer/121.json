@@ -1,0 +1,3 @@
+{
+  "prompts": "Blood type inheritance follows Mendelian genetics with alleles A, B, and O. A and B are co-dominant, and O is recessive. The possible phenotypes are A, B, AB, and O. A and B can result from AA or AO, and BB or BO, respectively, while AB is directly from alleles A and B. Blood type O arises when both alleles are O. Each parent contributes one allele, thus determining the child's blood type. For example, a parent with AO and another with BO can produce offspring with blood types A, B, AB, or O, demonstrating the inheritance pattern's variability."
+}

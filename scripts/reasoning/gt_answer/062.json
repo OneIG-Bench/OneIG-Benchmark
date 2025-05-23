@@ -1,0 +1,3 @@
+{
+  "prompts": "LoRA (Low-Rank Adaptation) is a method for fine-tuning large models by injecting trainable low-rank matrices into the layers of a pre-trained model. This approach reduces the need to modify the entire model's parameters, allowing efficient fine-tuning with minimal resource requirements. LoRA typically targets the weights of the model's attention layers, enabling focused learning without degrading the model's generalization. By optimizing only a subset of parameters, LoRA achieves significant computational savings and facilitates faster adaptation to new tasks or datasets, making it a popular choice for managing the complexity of large-scale neural networks."
+}

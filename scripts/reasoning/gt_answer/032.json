@@ -1,0 +1,3 @@
+{
+  "prompts": "In an operating system, a process is an independent program in execution with its own memory space, whereas a thread is the smallest sequence of programmed instructions that can be managed independently by a scheduler. Each process can contain multiple threads, which share the process's resources, such as memory and files, but may run concurrently. The OS manages both processes and threads to effectively share the CPU and system resources, providing multi-tasking and parallelism. Threads within the same process are lighter and faster compared to processes, allowing efficient execution and resource utilization."
+}

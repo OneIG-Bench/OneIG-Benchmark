@@ -1,0 +1,3 @@
+{
+  "prompts": "The TCP/IP protocol stack consists of four layers: the Application Layer, the Transport Layer, the Internet Layer, and the Network Interface Layer. The Application Layer includes protocols like HTTP, FTP, and SMTP, responsible for communication services for applications. The Transport Layer contains TCP and UDP, facilitating reliable or connectionless communication. The Internet Layer is where the Internet Protocol (IP) operates, providing logical addressing and routing of packets. Finally, the Network Interface Layer (or Link Layer) handles hardware addressing and physical transmission, involving protocols specific to the network technology like Ethernet."
+}

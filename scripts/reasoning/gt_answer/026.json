@@ -1,0 +1,3 @@
+{
+  "prompts": "The TCP protocol handshake is a three-step process for establishing a connection between a client and server. First, the client sends a SYN (synchronize) packet to the server to initiate the connection. Then, the server responds with a SYN-ACK (synchronize-acknowledge) packet, acknowledging receipt of the SYN and providing its own synchronization request. Finally, the client sends an ACK (acknowledge) packet back to the server, confirming the receipt of the SYN-ACK, at which point a connection is established. The FIN (finish) packet can later be used to gracefully terminate the connection."
+}

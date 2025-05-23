@@ -1,0 +1,3 @@
+{
+  "prompts": "A router forwards packets by first receiving the packet and examining the destination IP address. It checks its routing table to determine the best path for the packet. If a direct route exists, the packet is forwarded to the appropriate interface. If no direct route is found, it forwards the packet to the next-hop router. The router may apply Network Address Translation (NAT) if needed and adjust the packet's TTL (Time-To-Live) value. Finally, the packet is transmitted along its path until it arrives at the destination, or an error is returned if the route is unreachable."
+}

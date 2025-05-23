@@ -1,0 +1,3 @@
+{
+  "prompts": "In a series circuit, current flows through a single path, with resistors placed in sequence, leading to the same current passing through each component. Voltage is distributed across resistors, with the sum of individual voltage drops equaling the total voltage supplied. In a parallel circuit, current flows through multiple paths, with each resistor connected directly across the voltage source, maintaining the same voltage across each resistor. The total current is the sum of the currents through each path. Series circuits result in more voltage division, while parallel circuits ensure consistent voltage across all components."
+}

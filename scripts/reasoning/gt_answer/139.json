@@ -1,0 +1,3 @@
+{
+  "prompts": "The hospital recorded 120 visits to Internal Medicine, 80 to Surgery, 60 to Obstetrics and Gynecology, 100 to Pediatrics, and 40 to Ophthalmology within the week. This data highlights Internal Medicine as the department with the highest visits, followed by Pediatrics, Surgery, Obstetrics and Gynecology, and finally Ophthalmology. The bubble chart would represent this with varying bubble sizes, where Internal Medicine has the largest bubble and Ophthalmology the smallest. The labels for each bubble would indicate their corresponding number of visits, emphasizing the distribution of patient visits across departments."
+}

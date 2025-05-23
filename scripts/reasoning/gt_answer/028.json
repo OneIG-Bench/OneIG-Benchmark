@@ -1,0 +1,3 @@
+{
+  "prompts": "Quicksort is a divide-and-conquer algorithm that sorts an array by partitioning it into two subarrays. A pivot element is chosen, and elements are rearranged so that those less than the pivot precede it, while those greater follow it. This results in the pivot being in its final sorted position. The algorithm then recursively applies the same process to the subarrays to the left and right of the pivot. The base case for the recursion is when the subarray has zero or one element, at which point it is already sorted."
+}

@@ -1,0 +1,3 @@
+{
+  "prompts": "Hash tables utilize a hash function to map keys to indices of an array where values are stored. When collisions occur, multiple keys hash to the same index. Conflict resolution methods include separate chaining, where linked lists store multiple elements at a single index, and open addressing, including techniques like linear probing, where a sequential search finds the next available slot, or quadratic probing, which searches based on a quadratic function, and double hashing, which uses a second hash function. These methods ensure efficiency in accessing, inserting, and deleting items in a hash table."
+}

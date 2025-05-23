@@ -1,0 +1,3 @@
+{
+  "prompts": "The denoising process in a diffusion model involves gradually removing noise from data to recover the original signal. Initially, the model starts with a noisy version, often resembling random Gaussian noise. The diffusion model, an iterative process utilizing a trained denoising algorithm, predicts the clean signal at each step by learning to estimate the noise added in the previous steps. This process often utilizes reverse diffusion, where the algorithm progressively refines the data by subtracting estimated noise, resulting in the recovery of the original, clean signal over multiple iterations."
+}

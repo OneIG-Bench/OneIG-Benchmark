@@ -1,0 +1,3 @@
+{
+  "prompts": "The function y = cos(x) + sin(x) combines the cosine and sine wave, resulting in a graph with a period of 2π, since both sin(x) and cos(x) have a period of 2π. The amplitude of the combined function is √2. The graph oscillates above and below the x-axis, with a maximum value of √2 and a minimum value of -√2. Peaks occur at x = π/4 + kπ and troughs at x = 5π/4 + kπ for integers k. The phase shift can be determined by setting cos(x) + sin(x) = A sin(x + φ), finding φ = π/4."
+}

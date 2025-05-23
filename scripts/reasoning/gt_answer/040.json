@@ -1,0 +1,3 @@
+{
+  "prompts": "Cloud computing architecture consists of front-end and back-end platforms, connected through networks. The front-end includes client devices and applications, while the back-end comprises databases, servers, and storage. Service models define the offerings: Infrastructure as a Service (IaaS) provides virtualized computing resources; Platform as a Service (PaaS) delivers a platform for application development; Software as a Service (SaaS) offers software applications over the internet. Deployment models determine the availability and include public, private, hybrid, and community clouds, each catering to different levels of security and control, based on organizational needs."
+}

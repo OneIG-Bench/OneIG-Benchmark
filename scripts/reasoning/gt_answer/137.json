@@ -1,0 +1,3 @@
+{
+  "prompts": "The basket contains 30 fruits divided into five categories: 12 apples, 8 oranges, 6 pears, 3 grapes, and the remainder are bananas, totaling 30. Calculating the number of bananas: 30 - (12 + 8 + 6 + 3) = 1 banana. Each fruit category can be represented by its proportion of the total: apples (40%), oranges (26.67%), pears (20%), grapes (10%), and bananas (3.33%)."
+}

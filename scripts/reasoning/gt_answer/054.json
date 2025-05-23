@@ -1,0 +1,3 @@
+{
+  "prompts": "The memory heap and stack differ in several ways. Memory allocation on the stack is automatic and follows a Last In First Out (LIFO) order, making it faster and more efficient for storing local variables. In contrast, heap memory allocation is dynamic and managed manually, allowing for storage of objects and variables with a lifespan beyond function calls but is slower and can lead to fragmentation. Stack access is quicker due to its ordered nature, while heap storage provides greater flexibility for storing large and complex data structures but requires careful memory management to prevent leaks and fragmentation."
+}

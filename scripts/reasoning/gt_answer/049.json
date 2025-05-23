@@ -1,0 +1,3 @@
+{
+  "prompts": "A Content Delivery Network (CDN) consists of globally distributed servers (nodes) that cache and deliver content based on user proximity. Its architecture includes origin servers where content originates, edge servers or points of presence (PoPs) strategically located to serve content to end-users with low latency, and a management layer for coordinating content distribution. Data flows from origin servers to edge nodes, ensuring efficient distribution. Load balancing, caching, and geographic distribution are core components that optimize speed, reliability, and performance, providing end-users with fast access to digital content while reducing load on the origin infrastructure."
+}

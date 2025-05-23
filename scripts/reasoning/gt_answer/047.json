@@ -1,0 +1,3 @@
+{
+  "prompts": "An API gateway acts as a central entry point that manages API requests from clients, routing them to appropriate services. It handles tasks such as request authentication, load balancing, rate limiting, caching, and logging. In architecture, the API gateway sits between clients and backend services, enabling microservices communication and abstracting their complexities from the client. By consolidating access, it simplifies client interactions, reduces latency, enhances security, and provides analytics on API usage. Its centralized approach is vital for microservices architecture, ensuring scalable, efficient, and manageable interactions between disparate services and clients."
+}

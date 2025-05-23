@@ -1,0 +1,3 @@
+{
+  "prompts": "Consistency protocols in distributed systems ensure data consistency across multiple nodes. Paxos is a consensus algorithm providing fault tolerance by allowing a group of nodes to agree on a single value, even if some nodes fail. Its protocol stages include proposal, where proposers suggest values to acceptors; acceptance, where acceptors agree to one value; and learning, where learners are informed of the consensus decision. Paxos requires a majority of acceptors for consensus, ensuring reliability and consistency in the presence of node failures. This process underlies many distributed systems to maintain coordinated and fault-tolerant operations."
+}

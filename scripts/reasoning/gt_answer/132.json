@@ -1,0 +1,3 @@
+{
+  "prompts": "Permutations and combinations are mathematical formulas used to determine the number of ways to arrange or select items. For permutations, the order matters, and the formula is nPr = n! / (n-r)!, where n is the total number of items, and r is the number of items to arrange. For example, the number of ways to arrange 3 out of 5 books is 5P3 = 5! / (5-3)! = 60. In combinations, the order doesn't matter, and the formula is nCr = n! / (r!(n-r)!). For instance, choosing 3 out of 5 people for a team is 5C3 = 10."
+}

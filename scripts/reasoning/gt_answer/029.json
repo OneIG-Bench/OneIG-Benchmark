@@ -1,0 +1,3 @@
+{
+  "prompts": "HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the web but does not secure data during transmission. In contrast, HTTPS (Hypertext Transfer Protocol Secure) enhances HTTP with encryption using Transport Layer Security (TLS) or Secure Sockets Layer (SSL), ensuring data privacy and security between servers and clients. HTTPS operates over port 443, while HTTP uses port 80. This encryption prevents eavesdropping, data tampering, and man-in-the-middle attacks, making it crucial for secure online transactions and communications. Websites utilizing HTTPS also benefit from improved trust and potentially higher search rankings."
+}

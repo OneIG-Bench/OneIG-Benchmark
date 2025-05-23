@@ -1,0 +1,3 @@
+{
+  "prompts": "To determine the direction of the Lorentz force, use the right-hand rule: point your fingers in the direction of the velocity of the charged particle (v), align your palm to face the magnetic field (B) direction, and stick out your thumb. Your thumb then points in the direction of the Lorentz force (F) for a positive charge. For a negative charge, reverse the direction of the force. This method effectively determines the force acting perpendicularly to both the velocity and the magnetic field, according to the principle F = q(v × B)."
+}

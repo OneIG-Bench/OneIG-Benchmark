@@ -1,0 +1,3 @@
+{
+  "prompts": "Docker containerization operates by using Docker Engine, which is a lightweight runtime that allows multiple containers to run independently on the same operating system kernel. Unlike traditional virtualization, where each virtual machine includes a separate OS, containers share the host OS while isolating applications and dependencies. The Docker Engine manages these containers, providing efficient resource allocation and isolation. This approach minimizes overhead, enhances performance, and boosts scalability by allowing developers to package applications with their dependencies into standardized units that can be deployed consistently across various environments."
+}

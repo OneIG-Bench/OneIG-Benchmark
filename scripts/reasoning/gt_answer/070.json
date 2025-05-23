@@ -1,0 +1,3 @@
+{
+  "prompts": "Knowledge distillation compresses models by using a teacher-student framework. The teacher, a large pretrained model, transfers knowledge to a smaller student model. The teacher's soft predictions serve as a learning target for the student, capturing complex patterns and generalizing knowledge. The student model, being smaller, learns to mimic the output distribution of the teacher's predictions, often using a softened probability output, which can enhance its accuracy without requiring the same computational resources. This approach retains performance while significantly reducing the model size, making it efficient for deployment."
+}

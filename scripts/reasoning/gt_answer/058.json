@@ -1,0 +1,3 @@
+{
+  "prompts": "To illustrate BERT's pre-training and fine-tuning, begin with pre-training, which involves using a large corpus to train the model on masked language modeling and next sentence prediction tasks. This stage helps BERT learn language representations deeply. For fine-tuning, take pre-trained BERT and apply it to specific tasks by adding an additional output layer relevant to the task, such as text classification or question answering. This stage focuses on task-specific data, leveraging the linguistic understanding gained from pre-training to enhance performance on smaller, task-specific datasets."
+}

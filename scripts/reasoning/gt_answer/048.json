@@ -1,0 +1,3 @@
+{
+  "prompts": "To illustrate UML class diagrams for well-known design patterns, focus on the structural relationships and roles of classes within each pattern. For the Singleton pattern, depict a single class with a private constructor and a static method for instance retrieval. For the Factory Method, show an interface and its concrete implementations, with a creator class containing the factory method. For the Observer pattern, illustrate an observer interface, concrete observers, and a subject class with methods to attach, detach, and notify observers. In the Decorator pattern, emphasize an abstract component and concrete components, with decorators wrapping these components in a hierarchical manner."
+}

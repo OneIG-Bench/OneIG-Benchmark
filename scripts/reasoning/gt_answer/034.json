@@ -1,0 +1,3 @@
+{
+  "prompts": "A binary tree can be traversed in several ways: Preorder, Inorder, and Postorder. In Preorder traversal, the nodes are recursively visited in this way: root, left subtree, right subtree. In Inorder traversal, the nodes are visited in this order: left subtree, root, right subtree. In Postorder traversal, the nodes are visited in this sequence: left subtree, right subtree, root. These methods allow all the nodes to be visited in a structured order depending on the traversal technique."
+}

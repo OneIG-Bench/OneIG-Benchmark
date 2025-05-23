@@ -1,0 +1,3 @@
+{
+  "prompts": "The Transformer's architecture consists of an encoder-decoder structure. The encoder processes input sequences, composed of multiple identical layers, each containing two sub-layers: multi-head self-attention and a feed-forward neural network. The decoder also comprises multiple layers, but includes an additional sub-layer for encoder-decoder attention. Attention mechanisms allow the model to weigh the relevance of different words in a sequence, enabling dynamic context understanding. Both the encoder and decoder stacks are deep, with usually several layers, such as six or twelve, to handle complex sequences. Key components include embedding layers, positional encoding, and residual connections for stability."
+}

@@ -1,0 +1,3 @@
+{
+  "prompts": "A DDoS attack involves overwhelming a target server or network with excessive traffic, rendering it inaccessible. Attackers deploy a botnet—comprised of compromised devices—to generate this massive traffic. These hijacked devices send repeated requests to the target, leading to network congestion. As a result, legitimate users experience delays or denials of service due to the traffic overload, effectively shutting down the service or severely degrading its functionality."
+}

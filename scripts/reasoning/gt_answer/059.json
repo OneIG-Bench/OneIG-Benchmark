@@ -1,0 +1,3 @@
+{
+  "prompts": "An AI inference accelerator's hardware architecture typically includes cores optimized for parallel processing, memory hierarchy consisting of on-chip SRAM and off-chip DRAM to handle data efficiently, and dedicated neural processing units (NPUs) designed to accelerate matrix and vector computations. The architecture also features a high-speed interconnect for data transfer between components and input/output interfaces to integrate with host systems. These components work together to improve throughput and latency during data inference tasks, enabling fast processing of complex AI models while minimizing power consumption."
+}

@@ -1,0 +1,3 @@
+{
+  "prompts": "Translation involves shifting a shape a certain distance in a specified direction without changing its orientation or size. Rotation involves turning a shape around a fixed point (the center of rotation) at a specified angle, preserving its size and shape. Scaling involves enlarging or shrinking a shape by a scale factor, either uniformly (same factor for all dimensions) or non-uniformly (different factors for different dimensions), maintaining the shape’s proportions. Each transformation is defined by its unique parameters: direction and distance for translation, angle and pivot point for rotation, and scale factor(s) for scaling."
+}
