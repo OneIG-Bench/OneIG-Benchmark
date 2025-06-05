@@ -1,4 +1,7 @@
-# OneIG-Benchmark: Omni-dimensional Nuanced Evaluation for Image Generation.
+# OneIG-Bench: Omni-dimensional Nuanced Evaluation for Image Generation
+ <a href="https://huggingface.co/datasets/OneIG-Bench/OneIG-Bench"><img src="https://img.shields.io/static/v1?label=Dataset&message=Huggingface&color=green"></a> &ensp;
+  <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/static/v1?label=Tech%20Report&message=Arxiv&color=red"></a> &ensp;
+
 
 <img src="./assets/oneigbench.png">
 
