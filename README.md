@@ -100,8 +100,9 @@ pip install -r requirements.txt
 The version of flash-attention is in the last line of [`requirements.txt`](requirements.txt).
 
 To evaluate style performance, please download the [CSD model](https://drive.google.com/file/d/1FX0xs8p-C7Ob-h5Y4cUhTeOepHzXv_46/view?usp=sharing) and [CLIP model](https://openaipublic.azureedge.net/clip/models/b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836/ViT-L-14.pt), then put them under `./scripts/style/models`.
+Also, you can download the [`OneIG-StyleEncoder`](https://huggingface.co/xingpng/OneIG-StyleEncoder) here.
 
-
+For diversity metrics, some models and packages [link1](https://github.com/ssundaram21/dreamsim/releases/download/v0.2.0-checkpoints/dreamsim_ensemble_checkpoint.zip), [link2](https://github.com/facebookresearch/dino/zipball/main), [link3](https://dl.fbaipublicfiles.com/dino/dino_vitbase16_pretrain/dino_vitbase16_pretrain.pth) are needed to download and save in the folder [`models`] that is a sibling to [`assests`] and [`scripts`].
 ### Image Generation
 
 **You can use the [`scirpt`](text2image.py) to generate images.** You only need to set up the inference function in the script for generating images. 
