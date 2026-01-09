@@ -89,8 +89,8 @@ def main():
     score_csv["total average"] = mean_values.values
     save2csv(score_csv, diversity_score_csv)
     
-    # score_of_prompt_csv = score_of_prompt_csv.sort_index()
-    # save2csv(score_of_prompt_csv, diversity_prompt_score_csv)
+    score_of_prompt_csv = score_of_prompt_csv.sort_index()
+    save2csv(score_of_prompt_csv, diversity_prompt_score_csv)
 
     if os.path.exists(cache_dir):
         shutil.rmtree(cache_dir, onerror=on_rm_error)

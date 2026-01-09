@@ -158,6 +158,11 @@ To ensure that the generated images are correctly loaded for evaluation, you can
 
 ### Fined-grained Analysis for Evaluation Results
 
+If you would like to perform a fine-grained analysis, please re-download the repo or uncomment the lines above  
+`if os.path.exists(cache_dir):`  
+in `alignment_score.py`, `diversity_score.py`, `reasoning_score.py`, `style_score.py`, and `text_score.py`.
+
+
 You can copy all the CSV files generated for each prompt dimension (in particular, for the *style* dimension, the files are named `style_style*.csv`) into a subfolder named as the `model name` inside the `RESULT_DIR` directory. 
 
 Then, in [`fine_grained_analysis.py`](fine_grained_analysis.py), adjust the `MODE`, `RESULT_DIR`, and `KEYS` 

@@ -103,7 +103,7 @@ def main():
 
     save2csv(score_csv, text_score_csv)
 
-    # save2csv(score_of_prompt_csv, text_prompt_score_csv)
+    save2csv(score_of_prompt_csv, text_prompt_score_csv)
 
     if os.path.exists(cache_dir):
         shutil.rmtree(cache_dir, onerror=on_rm_error)
