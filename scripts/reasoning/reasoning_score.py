@@ -5,7 +5,7 @@ import megfile
 import shutil
 import pandas as pd
 from tqdm import tqdm
-from scripts.utils.utils import parse_args, split_2x2_grid, save2csv, on_rm_error
+from scripts.utils.utils import parse_args, split_mxn_grid, save2csv, on_rm_error
 
 import json
 from scripts.utils.inference import LLM2CLIP
@@ -39,7 +39,7 @@ def main():
         
         print(f"It is {model_name} time.")
         
-        img_grid = (args.image_grid[model_id], args.image_grid[model_id]) 
+        img_grid = (int(args.image_grid[model_id].split(',')[0]), int(args.image_grid[model_id].split(',')[-1])) 
         
         image_dir = args.image_dirname + '/' + model_name
         img_list = megfile.smart_glob(image_dir + '/*')
@@ -49,7 +49,7 @@ def main():
         
         for idx, img_path in tqdm(enumerate(img_list), total=len(img_list), desc="Processing images"):
             
-            split_img_list = split_2x2_grid(img_path, img_grid, cache_dir)
+            split_img_list = split_mxn_grid(img_path, img_grid, cache_dir)
             
             img_id = img_path.split('/')[-1][:3]
             answer_text = answer_gt[img_id]

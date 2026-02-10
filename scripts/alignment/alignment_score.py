@@ -5,7 +5,7 @@ import megfile
 import shutil
 import pandas as pd
 from tqdm import tqdm
-from scripts.utils.utils import parse_args, split_2x2_grid, save2csv, on_rm_error
+from scripts.utils.utils import parse_args, split_mxn_grid, save2csv, on_rm_error
 
 import json
 from copy import deepcopy
@@ -21,7 +21,7 @@ def alignment_score(img_path, questions, dependencies, img_grid, cache_dir):
     score = {}
     
     if len(img_path) == 1:
-        split_img_list = split_2x2_grid(img_path[0], img_grid, cache_dir)
+        split_img_list = split_mxn_grid(img_path[0], img_grid, cache_dir)
         if len(split_img_list) == 0:
             return None    
     else:
@@ -97,7 +97,7 @@ def main():
 
             for model_id, model_name in enumerate(args.model_names):
                 
-                img_grid = (args.image_grid[model_id], args.image_grid[model_id])
+                img_grid = (int(args.image_grid[model_id].split(',')[0]), int(args.image_grid[model_id].split(',')[-1]))
                  
                 image_path = megfile.smart_glob(args.image_dirname + '/' + class_item + '/' + model_name + '/' + key + '*')
                 

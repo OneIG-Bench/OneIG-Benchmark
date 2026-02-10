@@ -39,8 +39,9 @@ model_name = "xxx"
 df = pd.read_csv("OneIG-Bench.csv", dtype=str)
 # df = pd.read_csv("OneIG-Bench-ZH.csv", dtype=str)
 
-# you can change the grid here.
+# you can change the grid here. (2, 2), (1, 4), (3, 3) ...
 grid = (2, 2)
+
 
 for idx, row in df.iterrows():
     

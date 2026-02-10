@@ -11,7 +11,7 @@ def parse_args():
     parser.add_argument("--mode", type=str, default="EN", help="Choose language mode.")
     parser.add_argument("--image_dirname", type=str, default="images", help="Directory containing images.")
     parser.add_argument("--model_names", type=str, nargs="+", default=["gpt-4o"], help="List of model names.")
-    parser.add_argument("--image_grid", type=int, nargs="+", default=[2], help="List of image grids.")
+    parser.add_argument("--image_grid", type=str, nargs="+", default=["2,2"], help="List of image grids.")
     parser.add_argument("--class_items", type=str, nargs="+", default=["anime", "human", "object"], help="List of class items.")
     return parser.parse_args()
 
@@ -23,7 +23,7 @@ def is_black_image(image):
                 return False
     return True
 
-def split_2x2_grid(image_path, grid_size, cache_dir):
+def split_mxn_grid(image_path, grid_size, cache_dir):
     with megfile.smart_open(image_path, 'rb') as f:
         grid_image = Image.open(f)
 

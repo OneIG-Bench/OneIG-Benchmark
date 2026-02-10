@@ -14,7 +14,8 @@ MODEL_NAMES=("doubao")
 # model_names=("gpt-4o" "imagen4")
 
 # image grid
-IMAGE_GRID=(2)
+IMAGE_GRIDS=("2,2")
+# IMAGE_GRIDS=("2,2" "1,4")
 
 pip install transformers==4.50.0
 

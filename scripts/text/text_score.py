@@ -5,7 +5,7 @@ import megfile
 import shutil
 import pandas as pd
 from tqdm import tqdm
-from scripts.utils.utils import parse_args, split_2x2_grid, save2csv, on_rm_error
+from scripts.utils.utils import parse_args, split_mxn_grid, save2csv, on_rm_error
 
 from scripts.text.text_utils import preprocess_string, clean_and_remove_hallucinations, levenshtein_distance, calculate_char_match_ratio
 from scripts.utils.inference import Qwen2_5VLBatchInferencer
@@ -40,7 +40,7 @@ def main():
         
         print(f"It is {model_name} time.")
         
-        img_grid = (args.image_grid[model_id], args.image_grid[model_id]) 
+        img_grid = (int(args.image_grid[model_id].split(',')[0]), int(args.image_grid[model_id].split(',')[-1])) 
         
         edit_distances = []
         completion_ratios = []
@@ -60,7 +60,7 @@ def main():
             if len(img_path) != 1:
                 score_of_prompt_csv.loc[id, model_name] = None
             else:
-                split_img_list = split_2x2_grid(img_path[0], img_grid, cache_dir)    
+                split_img_list = split_mxn_grid(img_path[0], img_grid, cache_dir)    
                 if  len(split_img_list) != 0:                 
                     ocr_results = influencer.infer_ocr(split_img_list, max_new_tokens)
                 else:
